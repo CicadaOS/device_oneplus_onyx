@@ -15,7 +15,7 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/device.mk \
-    $(LOCAL_DIR)/onyx.mk
+    $(LOCAL_DIR)/b2g_onyx.mk
 
 COMMON_LUNCH_CHOICES := \
     b2g_onyx-userdebug \
