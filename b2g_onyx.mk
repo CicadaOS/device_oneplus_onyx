@@ -28,7 +28,7 @@ $(call inherit-product, vendor/lemon/config/common.mk)
 $(call inherit-product, vendor/oneplus/onyx/onyx-vendor.mk)
 
 #B2G
-#$(call inherit-product, gonk-misc/b2g.mk)
+$(call inherit-product, gonk-misc/b2g.mk)
 
 PRODUCT_NAME := b2g_onyx
 PRODUCT_DEVICE := onyx
